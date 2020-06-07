@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: gray;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: flex;
+}
+
+#RootApp {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 2px solid orange;
+  border-radius: 25px;
+  background-color: orange;
+  margin-left: 150px;
+  width: 250px;
+  height: 450px;
+}
+
+.title {
+  font-family: sans-serif;
+  margin-top: -195px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.search {
+  margin-left: 35px;
+  margin-bottom: 50px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  color: gray;
+}
+
+.select {
+  margin-left: 85px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.btn {
+  margin-left: 95px;
+  margin-right: 50px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
