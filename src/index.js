@@ -10,3 +10,12 @@ ReactDOM.render(
   </React.StrictMode>,
   rootElement
 );
+
+let Press = () => {
+  let add;
+  if (confirm("Adaugat")) {
+    add = "OK";
+  } else {
+    add = "Anuleaza";
+  }
+};
